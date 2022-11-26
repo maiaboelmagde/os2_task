@@ -1,6 +1,6 @@
 FROM openjdk
 
-WORKIR /application
+WORKDIR /application
 
 COPY os2.java
 
