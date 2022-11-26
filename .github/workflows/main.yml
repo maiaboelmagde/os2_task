@@ -13,9 +13,10 @@ jobs:
     steps:
 
       - uses: actions/checkout@v3
-      
-      - name: 'Printing folder contents'
-        run: ls -a
+
+      - name: "login Docker hub"
+        run: docker login --username maiaboelmagd --password dckr_pat_kYGWi5CfAgNZ0l04s1V1-maH5hc
+         
 
 
 
