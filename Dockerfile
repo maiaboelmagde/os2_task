@@ -2,8 +2,8 @@ FROM openjdk
 
 WORKDIR /application
 
-COPY os2.java .
+COPY Os2.java .
 
-RUN javac os2.java
+RUN javac Os2.java
 
-CMD java os2
+CMD java Os2
