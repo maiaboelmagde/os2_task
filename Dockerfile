@@ -2,7 +2,7 @@ FROM openjdk
 
 WORKIR /application
 
-COPY os2.java .
+COPY os2.java
 
 RUN javac os2.java
 
